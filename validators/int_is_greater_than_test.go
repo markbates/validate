@@ -19,5 +19,5 @@ func Test_IntIsGreaterThan(t *testing.T) {
 	v = IntIsGreaterThan{Name: "number", Field: 1, Compared: 2}
 	v.IsValid(errors)
 	r.Equal(1, errors.Count())
-	r.Equal(errors.Get("number"), []string{"1 is not greater than 2."})
+	r.Equal(errors.Get("number"), []string{"number: 1 is not greater than 2."})
 }
