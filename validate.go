@@ -1,5 +1,7 @@
 package validate
-
+/*
+This package has moved to github.com/gobuffalo/validate please use that instead.
+*/
 import (
 	"encoding/json"
 	"encoding/xml"
